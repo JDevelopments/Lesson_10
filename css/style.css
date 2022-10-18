@@ -109,7 +109,7 @@ body{
    margin-bottom: 40px;
 }
 
-.tittle__text {
+.title__text {
    font-weight: 700;
    line-height: 150%;
    letter-spacing: 1px;
@@ -118,7 +118,7 @@ body{
    color: #1E212C;
 }
 
-.tittle__subtext {
+.title__subtext {
    font-weight: 900;
    font-size: 46px;
    line-height: 130%;
@@ -147,8 +147,6 @@ body{
    width: 161px;
    height: 44px;
 }
-
-
 
 .curses__button{
    color: #F75E05;
