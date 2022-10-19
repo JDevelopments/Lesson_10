@@ -20,11 +20,11 @@ body{
    margin-bottom: 40px;
 }
 
-.page__image {
+.page_image {
    margin-bottom: 60px;
 }
 
-.page__text--bold .page__text{
+.page__text--bold {
    font-size: 20px;
    font-weight: 700;
    line-height: 30px;
@@ -109,7 +109,7 @@ body{
    margin-bottom: 40px;
 }
 
-.title__text {
+.tittle__text {
    font-weight: 700;
    line-height: 150%;
    letter-spacing: 1px;
@@ -118,7 +118,7 @@ body{
    color: #1E212C;
 }
 
-.title__subtext {
+.tittle__subtext {
    font-weight: 900;
    font-size: 46px;
    line-height: 130%;
@@ -147,6 +147,8 @@ body{
    width: 161px;
    height: 44px;
 }
+
+
 
 .curses__button{
    color: #F75E05;
@@ -177,45 +179,45 @@ body{
    border-radius: 4px;
 }
 
-.curses__ads-training{
+.card--ads-training{
    background: url(../img/content/card/image01.jpg) 0 0 no-repeat;
 }
-.curses__ads-training .card__badge{
+.card--ads-training .card__badge{
    background-color: #03CEA4;
 }
 
-.curses__product-managament {
+.card--product-managament {
    background: url(../img/content/card/product-management.jpg) 0 0 no-repeat;
 }
-.curses__product-managament .card__badge {
+.card--product-managament .card__badge {
    background-color: #5A87FC;
 }
 
-.curses__hr-managament{
+.card--hr-managament{
    background:url(../img/content/card/hr-management.jpg) 0 0 no-repeat;
 }
-.curses__hr-managament .card__badge{
+.card--hr-managament .card__badge{
  background-color: #F89828;
 }
 
-.curses__brand-managment{
+.card--brand-managment{
    background:url(../img/content/card/btand-management.jpg) 0 0 no-repeat;
 }
-.curses__brand-managment .card__badge{
+.card--card__brand-managment .card__badge{
    background-color: #03CEA4;
 }
 
-.curses__bsiness-develoment{
+.card--bsiness-develoment{
    background:url(../img/content/card/busines-development.jpg) 0 0 no-repeat;
 }
-.curses__bsiness-develoment .card__badge{
+.card--bsiness-develoment .card__badge{
  background-color: #5A87FC;
 }
 
-.curses__graphic-design{
+.card--graphic-design{
    background:url(../img/content/card/graphic-design.png) 0 0 no-repeat;
 }
-.curses__graphic-design .card__badge{
+.card--graphic-design .card__badge{
 background-color: #F52F6E;
 }
 
@@ -299,7 +301,7 @@ display: inline-block;
    display: inline-block;
 }
 
-.benefits__Community::before {
+.benefits__сommunity::before{
    content: "";
    background: url(../img/icons/tab/chat.svg) 0 9px no-repeat;
    height: 24px;
@@ -320,13 +322,6 @@ display: inline-block;
    margin-bottom: 24px;
 }
 
-.benefits__image-container {
+.benefits__image {
+   width: 100%;
 }
-.benefits_image {
-width: 100%;
-}
-
-
-
-
-
